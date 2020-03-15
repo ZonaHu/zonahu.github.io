@@ -26,14 +26,14 @@
 <meta property="article:author" content="Zona Hu">
 <meta name="twitter:card" content="summary">
 
-<link rel="apple-touch-icon" href= "http://zonahu.tech/apple-touch-icon.png">
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
     <link rel="alternate" href="/atom.xml" title="Zona Hu" type="application/atom+xml">
 
 
 
-    <link rel="shortcut icon" href="http://zonahu.tech/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
 
 
 
@@ -76,7 +76,7 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: 
+        search: true
     }
 </script>
 
@@ -85,7 +85,7 @@
 
 
 
-    <script> yiliaConfig.rootUrl = http://zonahu.tech; </script>
+    <script> yiliaConfig.rootUrl = "\/";</script>
 
 
 
@@ -100,7 +100,7 @@
 <div class="intrude-less">
     <header id="header" class="inner">
         <a href="/" class="profilepic">
-            <img src="http://zonahu.tech/img/avatar.png" class="animated zoomIn">
+            <img src="/img/avatar.png" class="animated zoomIn">
         </a>
         <hgroup>
           <h1 class="header-author"><a href="/">Zona Hu</a></h1>
@@ -108,6 +108,13 @@
 
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -159,13 +166,13 @@
                     <nav class="header-menu">
                         <ul>
                         
-                            <li><a href="http://zonahu.tech/">Homepage</a></li>
+                            <li><a href="/">Homepage</a></li>
                         
-                            <li><a href="http://zonahu.tech/archives/">Archives</a></li>
+                            <li><a href="/archives/">Archives</a></li>
                         
-                            <li><a href="http://zonahu.tech/tags/">Tags</a></li>
+                            <li><a href="/tags/">Tags</a></li>
                         
-                            <li><a href="http://zonahu.tech/about/">About</a></li>
+                            <li><a href="/about/">About</a></li>
                         
                         </ul>
                     </nav>
@@ -174,9 +181,13 @@
                             
                                 <a class="fa Email" href="mailto:zuomiao.hu@uwaterloo.ca" title="Email"></a>
                             
-                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                                <a class="fa GitHub" href="https://github.com/ZonaHu" target="_blank" rel="noopener" title="GitHub"></a>
                             
                                 <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="https://www.zhihu.com/people/hu-zuo-miao" target="_blank" rel="noopener" title="知乎"></a>
+                            
+                                <a class="fa LinkedIn" href="https://www.linkedin.com/in/zonahu/" target="_blank" rel="noopener" title="LinkedIn"></a>
                             
                         </ul>
                     </nav>
@@ -225,7 +236,7 @@
     <div class="intrude-less">
         <header id="header" class="inner">
             <a href="/" class="profilepic">
-                <img src="http://zonahu.tech/img/avatar.png" class="animated zoomIn">
+                <img src="/img/avatar.png" class="animated zoomIn">
             </a>
             <hgroup>
               <h1 class="header-author"><a href="/" title="回到主页">Zona Hu</a></h1>
@@ -250,9 +261,13 @@
                             
                                 <a class="fa Email" target="_blank" href="mailto:zuomiao.hu@uwaterloo.ca" title="Email"></a>
                             
-                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                                <a class="fa GitHub" target="_blank" href="https://github.com/ZonaHu" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" target="_blank" href="https://www.zhihu.com/people/hu-zuo-miao" title="知乎"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://www.linkedin.com/in/zonahu/" title="LinkedIn"></a>
                             
                         </ul>
             </nav>
@@ -367,7 +382,7 @@
             }
             else {
                 var backgroundnum = 5;
-                var backgroundimg = "url(http://zonahu.tech/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
                 $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
             }
         })
