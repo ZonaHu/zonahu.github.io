@@ -793,12 +793,6 @@ a {
   -moz-background-size: 88%;
   background-size: 88%;
 }
-#header .header-nav .social .GitHub {
-  background: url("/img/GitHub.png") center no-repeat #fff;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
-}
 #header .header-nav .social .V2EX {
   background: url("/img/V2EX.png") center no-repeat #e4cdb4;
   -webkit-background-size: 78%;
