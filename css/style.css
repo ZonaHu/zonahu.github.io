@@ -799,6 +799,12 @@ a {
   -moz-background-size: 78%;
   background-size: 78%;
 }
+#header .header-nav .social .GitHub {
+  background: url("/img/GitHub.png") center no-repeat #fff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
 #header .header-nav .social .TiddlyWiki {
   background: url("/img/TiddlyWiki.png") center no-repeat #6283dd;
   -webkit-background-size: 82%;
