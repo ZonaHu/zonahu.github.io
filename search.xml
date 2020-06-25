@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>一个可以将图片变成url的免费网站</title>
+      <link href="/2020/04/15/%E5%B0%86%E5%9B%BE%E7%89%87%E5%8F%98%E6%88%90url%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+      <url>/2020/04/15/%E5%B0%86%E5%9B%BE%E7%89%87%E5%8F%98%E6%88%90url%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h2 id="在配置我的博客的过程中，我发现无法通过本地路径添加一些本地图片，而是必须使用URL。尝试了QQ相册、百度云盘等依然没能将本地图片转换成可以用的URL。考虑到本地存放图片的方式以后可能会带来很多的不方便，这里推荐一个好用的工具-—-SM-MS"><a href="#在配置我的博客的过程中，我发现无法通过本地路径添加一些本地图片，而是必须使用URL。尝试了QQ相册、百度云盘等依然没能将本地图片转换成可以用的URL。考虑到本地存放图片的方式以后可能会带来很多的不方便，这里推荐一个好用的工具-—-SM-MS" class="headerlink" title="在配置我的博客的过程中，我发现无法通过本地路径添加一些本地图片，而是必须使用URL。尝试了QQ相册、百度云盘等依然没能将本地图片转换成可以用的URL。考虑到本地存放图片的方式以后可能会带来很多的不方便，这里推荐一个好用的工具 —- SM.MS"></a>在配置我的博客的过程中，我发现无法通过本地路径添加一些本地图片，而是必须使用URL。尝试了QQ相册、百度云盘等依然没能将本地图片转换成可以用的URL。考虑到本地存放图片的方式以后可能会带来很多的不方便，这里推荐一个好用的工具 —- <a href="https://sm.ms/" target="_blank" rel="noopener"><em>SM.MS</em></a></h2><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><h4 id="使用-SM-MS最多可以一次上传10个文件，每个文件大小不超过5MB。"><a href="#使用-SM-MS最多可以一次上传10个文件，每个文件大小不超过5MB。" class="headerlink" title="使用 SM.MS最多可以一次上传10个文件，每个文件大小不超过5MB。"></a>使用 SM.MS最多可以一次上传10个文件，每个文件大小不超过5MB。</h4><p> <img src= "/img/loading.gif" data-src="https://i.loli.net/2020/06/26/jkzSKP4e7dCaNqx.png" alt="upload .png"></p><h4 id="我们只需要将需要进行转换的图片拖入框内，点击Upload即可。"><a href="#我们只需要将需要进行转换的图片拖入框内，点击Upload即可。" class="headerlink" title="我们只需要将需要进行转换的图片拖入框内，点击Upload即可。"></a>我们只需要将需要进行转换的图片拖入框内，点击Upload即可。</h4><p> <img src= "/img/loading.gif" data-src="https://i.loli.net/2020/06/26/HUALIzwZufxNWao.png" alt="example"></p><h4 id="网站会自动为图片生成HTML，BBCode，Markdown等结果，是不是很方便呢？"><a href="#网站会自动为图片生成HTML，BBCode，Markdown等结果，是不是很方便呢？" class="headerlink" title="网站会自动为图片生成HTML，BBCode，Markdown等结果，是不是很方便呢？"></a>网站会自动为图片生成<em>HTML</em>，<em>BBCode</em>，<em>Markdown</em>等结果，是不是很方便呢？</h4>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 推荐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/03/15/hello-world/"/>
       <url>/2020/03/15/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to my blog! This is my very first post. You can also visit my <a href="https://github.com/ZonaHu" target="_blank" rel="noopener">GitHub</a> or <a href="https://www.linkedin.com/in/zonahu/" target="_blank" rel="noopener">Linkedin</a>.</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h3><p><a href="mailto:zuomiao.hu@uwaterloo.ca">zuomiao.hu@uwaterloo.ca</a></p><h2 id="Resume"><a href="#Resume" class="headerlink" title="Resume"></a>Resume</h2><p>Please visit the “About” page</p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to my blog! This is my very first post. You can also visit my <a href="https://github.com/ZonaHu" target="_blank" rel="noopener">GitHub</a> or <a href="https://www.linkedin.com/in/zonahu/" target="_blank" rel="noopener">Linkedin</a>.</p><h2 id="Contact-Me"><a href="#Contact-Me" class="headerlink" title="Contact Me"></a>Contact Me</h2><h3 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h3><p><a href="mailto:zuomiao.hu@uwaterloo.ca">zuomiao.hu@uwaterloo.ca</a></p><h2 id="My-Resume"><a href="#My-Resume" class="headerlink" title="My Resume"></a>My Resume</h2><p>Please visit the <a href="https://zonahu.tech/about/">About</a> page.</p>]]></content>
       
       
       
