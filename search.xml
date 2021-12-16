@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>How I Recovered My Picture With Eason Chan Using Face Restoration</title>
+      <link href="/2021/12/16/Face-Restoration/"/>
+      <url>/2021/12/16/Face-Restoration/</url>
+      
+        <content type="html"><![CDATA[<h4 id="A-Picture-with-Eason-Chan"><a href="#A-Picture-with-Eason-Chan" class="headerlink" title="A Picture with Eason Chan"></a>A Picture with Eason Chan</h4><p>Eight years ago, I met Eason Chan(<a href="https://en.wikipedia.org/wiki/Eason_Chan" target="_blank" rel="noopener">陳奕迅</a>), one of my favourite singers, in a fundraising event. He has been one of China’s best-selling artists every year since 2000 and has won many prestigious awards. His world tours have included performances at The Royal Albert Hall, and he was the first Chinese artist to play at London’s O2 Arena. I grew up listening to his songs and was very excited when I met him. He was so nice, and I was lucky enough that he invited my friend and me to take a picture with him. That day was one of my best days, but the only thing that makes it imperfect is that the picture we took was pretty blurry since my friend’s phone camera was in low resolution. Also, I was never fortunate enough to meet him again. I have saved the picture for eight years now and always wish to find a way to recover it for higher quality.</p><h4 id="GFP-GAN"><a href="#GFP-GAN" class="headerlink" title="GFP-GAN"></a>GFP-GAN</h4><p>I recently read a Linkedin post from <a href="https://www.linkedin.com/in/murilo-gustineli/" target="_blank" rel="noopener">Murilo Gustineli</a> about restoring images using GFP-GAN, a blind face restoration algorithm for real-world low-quality face images. It leverages rich and diverse priors encapsulated in a pre-trained face Generative Adversarial Networks (GAN). According to the paper, the algorithm aims at recovering high-quality faces from the low-quality counterparts suffering from unknown degradation, such as low-resolution, noise, blur, compression artifacts, etc.</p><p>As a software engineering student specializing in Human-Computer interaction, I believe this algorithm is significant and applicable to people who want to restore their low-quality family pictures or historical pictures that are aged, and it is also meaningful to me. I was very interested in learning about this algorithm and was able to run my picture with Eason through this algorithm. The image on the left is the original picture, and the image on the right is the output. I was surprised by the output image, which has quite impressive details, and I am so thankful for this tool!</p><h5 id="Restored-Image"><a href="#Restored-Image" class="headerlink" title="Restored Image"></a>Restored Image</h5><p><img src= "/img/loading.gif" data-src="https://s2.loli.net/2021/12/17/Xvxm2E8SHY5y6oO.png" alt="EasonChen.png"></p><p>If you would like to learn more about GFP-GAN, please check the link below.</p><p>💻 𝗚𝗶𝘁𝗛𝘂𝗯 𝗰𝗼𝗱𝗲:<br><a href="https://github.com/TencentARC/GFPGAN" target="_blank" rel="noopener">https://github.com/TencentARC/GFPGAN</a></p><p>📝 𝗣𝗮𝗽𝗲𝗿:<br><a href="https://arxiv.org/pdf/2101.04061.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/2101.04061.pdf</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Articial Intelligence </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为简约、极简爱好者打造的Hexo主题“Coder”</title>
       <link href="/2020/06/27/%E4%B8%80%E4%B8%AA%E4%B8%BA%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%AE%80%E6%B4%81hexo%E4%B8%BB%E9%A2%98/"/>
       <url>/2020/06/27/%E4%B8%80%E4%B8%AA%E4%B8%BA%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AE%BE%E8%AE%A1%E7%9A%84%E7%AE%80%E6%B4%81hexo%E4%B8%BB%E9%A2%98/</url>
