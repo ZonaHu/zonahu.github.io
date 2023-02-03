@@ -14,7 +14,26 @@
       
         <tags>
             
-            <tag> Waterloo CS </tag>
+            <tag> Projects </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>History Deletor</title>
+      <link href="/2022/04/16/History-Deletor/"/>
+      <url>/2022/04/16/History-Deletor/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Inspiration"><a href="#Inspiration" class="headerlink" title="Inspiration:"></a>Inspiration:</h3><p>Our idea comes from a guest speaker. She participated in a lesbian porn magazine, On Our Backs, which ran from 1984 to 2004. The magazine was digitized in 2016, bringing public exposure that might harm the former models in their personal and professional lives. What’s more, there was no good way to remove the magazine from the internet. We hope that our project gives individuals like her a chance to remove private and unwanted information from archive sites and social media.</p><h3 id="What-it-does"><a href="#What-it-does" class="headerlink" title="What it does:"></a>What it does:</h3><p>Our site helps individuals who wish to have traces of themselves removed from the internet. We hope that our project will enable victims to take down intimate media of themselves on the internet and protect themselves from their attackers. We want to help individuals who are discriminated against on the internet to have the right to be forgotten and have the right to take control of their privacy. If there is content that you may deem undesirable, you can use our systems to help search and find the information and to remove it. Our site also provides resources and information to help guide users on how to go about removing information that they cannot easily delete. Our tool now supports sites including Google, Twitter, Reddit, PornHub, Internet Archive and reverse image search.</p><h3 id="Check-it-out"><a href="#Check-it-out" class="headerlink" title="Check it out"></a>Check it out</h3><p>This project is developed by Victor Wang, Zuomiao Hu, Wanda Song and Wenyi Hu.</p><ul><li>The link to our website: <a href="https://history-deleter.vercel.app/" target="_blank" rel="noopener">https://history-deleter.vercel.app/</a></li><li>The link to our code base: <a href="https://github.com/vdoubleu/history-deleter" target="_blank" rel="noopener">https://github.com/vdoubleu/history-deleter</a></li></ul><h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><p>The majority of the difficult challenges faced for this project were related to the scope of the project itself. We originally had large aspirations for completely wiping a user from the internet. However, as we began to delve into the specific implementations, we quickly realized that we had to scale back some aspects of the project, and rework others. Searching for a user across every site is simply not realistic, and the APIs for doing this are often not there. Scraping the web is possible but would require exponentially more time and effort. We wanted to preserve as much of the core idea of the project as possible, but it still has to be realistic. And so, we decided to focus our objective on revenge porn and other sensitive user content. We decided to focus on sites where this sort of content is most likely to be published, and would have the greatest impact. We also had to make sure that all of the sites we picked had adequate APIs and removal policies for our use case. In doing so, we were able to limit the scope to a manageable amount.</p><p>Given more time, we would expand our scope, and cover as many sites as possible. Something akin to tools like Sherlock: <a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener">https://github.com/sherlock-project/sherlock</a>. But unlike Sherlock (which just checks if a username exists), we would dig through content pages to find sensitive content and guide users through how they can delete it. Using a bot, we could also constantly run certain queries so that if new content appears that is similar to previous content you removed, you can be notified. This would help users stay on top of reposts of sensitive content, and help keep them off the internet.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Projects </tag>
             
         </tags>
       
